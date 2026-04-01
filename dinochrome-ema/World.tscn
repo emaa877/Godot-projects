@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://CanvasLayer.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Dino.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Floor.tscn" type="PackedScene" id=4]
+[ext_resource path="res://World.gd" type="Script" id=9]
+
+[node name="World" type="Node2D"]
+position = Vector2( 0, 1 )
+script = ExtResource( 9 )
+
+[node name="Dino" parent="." instance=ExtResource( 2 )]
+
+[node name="CanvasLayer" parent="." instance=ExtResource( 1 )]
+
+[node name="Floor" parent="." instance=ExtResource( 4 )]
+position = Vector2( 512, 420 )
+
+[node name="CloudTimer" type="Timer" parent="."]
+wait_time = 1.5
+autostart = true
+
+[node name="StoneTimer" type="Timer" parent="."]
+wait_time = 0.25
+autostart = true
+
+[connection signal="button_pressed" from="CanvasLayer" to="." method="new_game"]
+[connection signal="timeout" from="CloudTimer" to="." method="_on_CloudTimer_timeout"]
+[connection signal="timeout" from="StoneTimer" to="." method="_on_StoneTimer_timeout"]

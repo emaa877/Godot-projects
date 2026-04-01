@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Mario_Jump-bf01dd32-3eda-39aa-a574-6d0ee2d23966.wav-6040fdef4fae739140a84597cc421cc5.sample"
+
+[deps]
+
+source_file="res://Sounds/Mario_Jump-bf01dd32-3eda-39aa-a574-6d0ee2d23966.wav"
+dest_files=[ "res://.import/Mario_Jump-bf01dd32-3eda-39aa-a574-6d0ee2d23966.wav-6040fdef4fae739140a84597cc421cc5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

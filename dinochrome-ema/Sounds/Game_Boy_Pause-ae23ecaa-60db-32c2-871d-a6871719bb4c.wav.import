@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Game_Boy_Pause-ae23ecaa-60db-32c2-871d-a6871719bb4c.wav-373015f6ca9adca6d461edfd46bd3616.sample"
+
+[deps]
+
+source_file="res://Sounds/Game_Boy_Pause-ae23ecaa-60db-32c2-871d-a6871719bb4c.wav"
+dest_files=[ "res://.import/Game_Boy_Pause-ae23ecaa-60db-32c2-871d-a6871719bb4c.wav-373015f6ca9adca6d461edfd46bd3616.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

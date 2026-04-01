@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.827451, 0.145098, 0.145098, 1 )
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[node name="PanelContainer" type="PanelContainer"]
+margin_right = 272.0
+margin_bottom = 71.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_top = 28.0
+margin_right = 272.0
+margin_bottom = 42.0
+text = "Bordes redondeados y color de fondo"
+align = 1

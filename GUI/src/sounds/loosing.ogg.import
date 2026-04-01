@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/loosing.ogg-f3ef9ff93026a88fda58347398a50916.oggstr"
+
+[deps]
+
+source_file="res://src/sounds/loosing.ogg"
+dest_files=[ "res://.import/loosing.ogg-f3ef9ff93026a88fda58347398a50916.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

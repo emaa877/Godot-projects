@@ -1,0 +1,52 @@
+[gd_scene format=2]
+
+[node name="TabContainer" type="TabContainer"]
+margin_right = 517.0
+margin_bottom = 136.0
+
+[node name="Button" type="Button" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+text = "Boton1"
+
+[node name="Button2" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+text = "Boton2"
+
+[node name="Button3" type="Button" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
+text = "Boton3"
+
+[node name="CheckBox" type="CheckBox" parent="."]
+visible = false
+margin_right = 24.0
+margin_bottom = 24.0
+text = "CheckBox"
+
+[node name="CheckButton" type="CheckButton" parent="."]
+visible = false
+margin_right = 76.0
+margin_bottom = 40.0
+text = "CheckButton"
+
+[node name="ToolButton" type="ToolButton" parent="."]
+visible = false
+margin_right = 12.0
+margin_bottom = 22.0
+text = "ToolButton"

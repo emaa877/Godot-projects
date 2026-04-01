@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/adder_cube2_1.ogg-aac8352b1aa692a3091c61fcf2a248e2.oggstr"
+
+[deps]
+
+source_file="res://src/sounds/adder_cube2_1.ogg"
+dest_files=[ "res://.import/adder_cube2_1.ogg-aac8352b1aa692a3091c61fcf2a248e2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

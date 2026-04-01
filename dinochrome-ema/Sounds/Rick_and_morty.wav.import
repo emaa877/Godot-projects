@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Rick_and_morty.wav-aa3a9b5ecbd0a132209ac15cb2d2ac1b.sample"
+
+[deps]
+
+source_file="res://Sounds/Rick_and_morty.wav"
+dest_files=[ "res://.import/Rick_and_morty.wav-aa3a9b5ecbd0a132209ac15cb2d2ac1b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

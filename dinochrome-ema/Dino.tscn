@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Dino.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/run1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/run2.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/dead.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/jump.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/duck1.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/duck2.png" type="Texture" id=7]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 21.4441
+height = 52.7231
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "dead",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "duck",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "jump",
+"speed": 5.0
+} ]
+
+[node name="Dino" type="KinematicBody2D"]
+pause_mode = 1
+position = Vector2( 119.796, 369.8 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 13.7, -5.29999 )
+rotation = 0.523599
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 2 )
+animation = "run"
+playing = true
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 13.7, -5.3 )
+rotation = 0.523599
+shape = SubResource( 1 )
+
+[node name="Audio" type="AudioStreamPlayer2D" parent="."]
