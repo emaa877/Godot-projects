@@ -6,7 +6,7 @@
 
 Este repositorio contiene una serie de **pruebas y prototipos desarrollados con el motor de videojuegos**, enfocados en:
 
-- Desarrollo de juegos simples (2D/3D)
+- Desarrollo de juegos simples (2D)
 - Experimentación con interfaces gráficas (UI)
 - Validación de mecánicas básicas de interacción
 
@@ -27,7 +27,7 @@ Godot es un motor open-source utilizado para crear aplicaciones interactivas y v
 
 - **Juegos de prueba**
   - Mecánicas básicas (movimiento, colisiones, inputs)
-  - Escenas simples en 2D y 3D
+  - Escenas simples en 2D 
 
 - **Interfaces gráficas**
   - Menús interactivos
