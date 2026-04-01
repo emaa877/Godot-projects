@@ -72,3 +72,12 @@ Orientado a aprendizaje y validación de conceptos.
 - Mejora en diseño de UI/UX
 - Exportación a múltiples plataformas
 
+---
+
+## Curso: Introducción al desarrollo de Videojuegos con Godot
+
+Fui disertante del curso "Introducción al desarrollo de Videojuegos con Godot" de 8hs de duración en Mayo de 2020. 
+Se explicaron los fundamentos de Godot, hubo un desarrollo práctico explicativo y se asignó como tarea para su aprobación, replicarlo con los assets que desee cada alumno. Se adjunta a continuacion las grabaciones del mismo:
+
+- [Parte 1](https://www.youtube.com/live/NV1ZhQStLQc?si=dM5gkAeMiIJEMb8y)
+- [Parte 2](https://www.youtube.com/live/gmfTx2gzVV4?si=895UNe2LH4_H1Q80)
